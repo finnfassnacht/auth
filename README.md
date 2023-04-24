@@ -46,4 +46,7 @@ To do so, search for App ID in the IBM Cloud catalog. Choose a region (such as u
 Create a User by selecting "Users" from the sidebar, followed by "Cloud Directory." Next, click on the "Create User" button, which will prompt you to enter information about the user you're creating. Once finished, click "Save" to add the user to your Cloud Directory.
 
 ## Add Authentication
-
+To use AppID in our Application we need to install some required modules.
+```
+npm install --save express express-session passport log4js pug ibmcloud-appid
+```
